@@ -1,0 +1,12 @@
+node_modules/
+dist/
+*.log
+.DS_Store
+.vite/
+
+# Secrets — never commit
+secrets.h
+*.secret
+.env
+.env.*
+!.env.example
